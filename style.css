@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body{
+  background-color:#FAF8F6;;
+  overflow-x: hidden;
+
+}
+
+.main-container {
+    margin: 50px;
+
+}
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto;
+}
+
+
+article {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.suit1 img {
+  color: var(--Dark-Blue, #172339);
+  font-family: Epilogue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+  letter-spacing: -0.444px;
+}
+
+
+
+.btn1 {
+    color:#172339;
+    font-size: 18px;
+    font-family: Epilogue;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word;
+    background-color: #FAF8F6;
+    padding: 6px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: -3rem;
+   }
+   
+   
+   .btn1:hover {
+     background-color: #172339 ;
+     color: #FAF8F6;
+   }
+
+
+   .pattern-curved1 {
+     width: 14.9375rem;
+     flex-shrink: 0; 
+     position:absolute;
+     left: 420px; 
+     top: 220px;
+     
+
+   }
+
+.super-solution {
+  margin-top: 5rem;
+
+
+}
+.super-solution h1{
+  width: 550px;
+  /* background-color: blue; */
+  color: #172339;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Epilogue;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 78px; 
+  letter-spacing: -1px;
+       
+}
+
+.super-solution span{
+ font-weight: 700;
+
+}
+
+.super-solution p{
+  padding-top: 2rem;
+  width: 280px;
+  color: var(--Grey, #49566D);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Epilogue;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 177.778% */
+  letter-spacing: 0.00625rem;
+  margin-top: 1 rem;
+}
+
+
+.btn2 {  
+  color: #FAF8F6;
+  font-size: 18px;
+  font-family: Epilogue;
+  font-weight: 700;
+  line-height: 32px;
+  word-wrap: break-word;
+  margin-top: 50px;
+  background-color: #172339;
+  padding: 6px 15px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 3rem;
+}
+
+
+.btn2:hover {
+  background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+  color: #FAF8F6;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+
+.super-solution img {
+  width: 370px;
+  height: 600px;
+  flex-shrink: 0;
+  background: radial-gradient;
+  border-radius: 15px;
+  position: absolute;
+  top: 150px;
+  left: 570px;  
+  z-index: -1;
+  
+}
+    
+.company-info p{  
+  color:  #172339;
+  font-family: Epilogue;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 5.5rem;
+  margin-right: 20px;
+  
+  }
+
+  .company-info span{
+  color: var(--Grey, #49566D);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  position: absolute;
+  
+  }
+
+
+  /* the bottom section starts here */
+    .bottom-section{
+      width: 69.3125rem;
+      height: 34.0625rem;
+      flex-shrink: 0;
+      border-radius: 0.9375rem;
+      background: var(--Dark-Blue, #172339);
+      position: inherit;
+      margin: 4rem auto;
+      margin-top: 20rem;
+      color: #F3EDE7;
+      display: flex;
+      
+    
+    }
+
+    #jeremy img {
+      width: 23.4375rem;
+      height: 37.5rem;
+      flex-shrink: 0;
+      position: absolute;
+      top: 56rem;
+      left: 14rem;
+    }
+        
+
+    #pattern-curved2 img {
+      width: 64.049px;
+      height: 52px;
+      flex-shrink: 0;
+      stroke-width: 2px;
+      stroke: #FAF8F6;
+      position: absolute;
+      left: 640px;
+      top: 1130px;
+    }
+
+    #bottom-content {
+      position: absolute;
+      left: 800px;
+      top: 1030px;
+    
+    }
+
+    #bottom-content h1 {
+      color: #FAF8F6;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Epilogue;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 3.5rem; /* 116.667% */
+      letter-spacing: -0.03125rem;
+    }
+
+    #bottom-content span {
+      font-weight: 700;
+      line-height: 3.5rem;
+      letter-spacing: -0.03125rem
+
+    }
+
+    #bottom-content p {
+      width: 18.875rem;
+      color: var(--Cream, #F3EDE7);
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Epilogue;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2.1875rem; /* 175% */
+      letter-spacing: 0.00625rem;
+      padding-top: 3rem;
+
+    }
+
+    #bottom-content h5 {
+      color: var(--Cream-White, #FAF8F6);
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Epilogue;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2rem; /* 177.778% */
+      letter-spacing: -0.01125rem;
+      padding-top: 3rem;
+
+    }
+
+
+    #bottom-content h6 {
+      width: 11.875rem;
+      color: var(--Cream, #F3EDE7);
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Epilogue;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.625rem; /* 162.5% */
+      letter-spacing: 0.15625rem;
+    }
+
+
+    footer {
+      width: 100%;
+      height: 29rem;
+      flex-shrink: 0;
+      background: var(--Cream, #F3EDE7);
+      /* background-color: #FFA84E; */
+      position: absolute;
+      top: 77rem;
+      left: 0rem;
+      z-index: -1;
+    }
+
+
+    .footer-down {
+      width: 69.3125rem;
+      height: 2rem;
+      flex-shrink: 0;
+      /* background-color: #FFA84E; */
+      position: absolute;
+      top: 22rem;
+      left: 7.5rem;
+      justify-content: space-between;
+      display: flex;
+      
+    }
+
+    footer .suit2 {
+      color: var(--Dark-Blue, #172339);
+      font-family: Epilogue;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2rem; /* 100% */
+      letter-spacing: -0.02775rem;
+    }
+
+
+    footer .copyright {
+      font-family: Epilogue;
+      font-size: 0.9375rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2rem; /* 213.333% */
+      letter-spacing: 0.00519rem;
+    }
+
+
+    footer .social-media {
+      width: 7.25rem;
+      height: 1.25rem;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+     }
+
+     .social-media img:hover {
+      background: grey;
+      transition: 0.04s;
+  }

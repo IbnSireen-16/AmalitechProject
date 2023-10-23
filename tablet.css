@@ -1,0 +1,180 @@
+@media only screen and (min-width:481px) and (max-width:840px){ 
+
+.main-container {
+    margin: 10px;
+}
+
+header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23.3125rem;
+    margin-left: 60px;
+}
+
+article {
+    margin-left: 60px;
+}
+
+.pattern-curved1 {
+    width: 13.00963rem;
+    /* height: 1.8125rem; */
+    flex-shrink: 0;
+    stroke-width: 2px;
+    position:absolute;
+    left: 250px; 
+    top: 220px;
+
+}
+
+.super-solution h1 {
+    width: 35.8125rem;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4rem; /* 114.286% */
+    letter-spacing: -0.04863rem;
+
+}
+
+.super-solution p {
+    width: 17.875rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+    letter-spacing: 0.00556rem;
+}
+
+
+.super-solution img {
+    width: 19.5625rem;
+    height: 30.125rem;
+    flex-shrink: 0;
+    position: absolute;
+    top: 150px;
+    left: 410px;
+}
+
+  .company-info {  
+    margin-top: 400px;
+    margin-left: -500px;
+    display: flex;
+
+}
+
+ .company-info span{
+    position: relative;
+    left: -7rem;
+    padding-top: 9rem;
+
+ }
+
+.company-info p {
+    position: relative;
+}
+
+.lang {
+    padding-left: 2rem;
+}
+
+ 
+    
+.bottom-section {
+    width: 43.0625rem;
+    height: 42.75rem;
+    flex-shrink: 0;
+}
+
+
+#jeremy img {
+    width: 15.75rem;
+    height: 25.125rem;
+    flex-shrink: 0;
+    margin-left: 40px;
+    margin-top: -25px;
+
+}
+
+#pattern-curved2 img {
+    position: absolute;
+    left: 350px;
+    top: 1310px;
+}
+
+#bottom-content {
+    width: 35.8125rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    display: flex;
+    position: absolute;
+    left: 110px;
+    top: 1390px;
+}
+
+#bottom-content h1 {
+    /* width: 35.8125rem; */
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; /* 120% */
+    letter-spacing: -0.02606rem;
+    
+}
+
+#bottom-content p {
+    width: 34.8125rem;
+    font-size: 1.325rem;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 2rem; /* 177.778% */
+    letter-spacing: 0.00563rem;
+}
+
+#bottom-content h6 {
+    padding-left: 13px;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 40rem;
+    flex-shrink: 0;
+    position: absolute;
+    top: 80rem;
+    left: 0rem;
+    z-index: -1;
+}
+
+.footer-down {
+    width: 43.0625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    position: absolute;
+    top: 34rem;
+    left: 3.5rem;
+    justify-content: space-between;
+    display: flex;     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
